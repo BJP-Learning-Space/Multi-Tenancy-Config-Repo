@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    tenants:
+      default:
+        url: jdbc:postgresql://localhost:5432/History
+        username: postgres
+        password: qjawls20105^
+        driver-class-name: org.postgresql.Driver
+        project: multi
+        version: real
+      kakao:
+        url: jdbc:postgresql://localhost:5432/kakao
+        username: postgres
+        password: qjawls20105^
+        driver-class-name: org.postgresql.Driver
+        project: multi
+        version: real
+      naver:
+        url: jdbc:postgresql://localhost:5432/naver
+        username: postgres
+        password: qjawls20105^
+        driver-class-name: org.postgresql.Driver
+        project: multi
+        version: real
+

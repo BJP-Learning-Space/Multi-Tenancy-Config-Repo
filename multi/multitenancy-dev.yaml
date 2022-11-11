@@ -2,7 +2,7 @@ spring:
   datasource:
     tenants:
       default:
-        url: jdbc:postgresql://34.64.100.26:5432/History
+        url: jdbc:postgresql://34.64.100.26:5432/history
         username: postgresql
         password: postgrespassword
         driver-class-name: org.postgresql.Driver

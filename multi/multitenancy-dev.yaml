@@ -2,33 +2,24 @@ spring:
   datasource:
     tenants:
       default:
-        url: jdbc:h2:mem:data/demo
-        driverClassName: org.h2.Driver
-        username: sa
-        password:
-        jpa:
-          hibernate:
-            ddl-auto: create-drop
+        url: jdbc:postgresql://34.64.100.26:5432/History
+        username: postgresql
+        password: postgrespassword
+        driver-class-name: org.postgresql.Driver
         project: multi
-        version: dev
+        version: real
       kakao:
-        url: jdbc:h2:mem:data/kakao
-        driverClassName: org.h2.Driver
-        username: sa
-        password:
-        jpa:
-          hibernate:
-            ddl-auto: create-drop
+        url: jdbc:postgresql://34.64.100.26:5432/kakao
+        username: postgresql
+        password: postgrespassword
+        driver-class-name: org.postgresql.Driver
         project: multi
-        version: dev
+        version: real
       naver:
-        url: jdbc:h2:mem:data/naver
-        driverClassName: org.h2.Driver
-        username: sa
-        password:
-        jpa:
-          hibernate:
-            ddl-auto: create-drop
+        url: jdbc:postgresql://34.64.100.26:5432/naver
+        username: postgresql
+        password: postgrespassword
+        driver-class-name: org.postgresql.Driver
         project: multi
-        version: dev
+        version: real
 

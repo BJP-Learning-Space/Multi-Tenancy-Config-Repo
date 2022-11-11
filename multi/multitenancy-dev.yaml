@@ -3,6 +3,9 @@ spring:
     tenants:
       default:
         url: jdbc:h2:mem:data/demo
+        driverClassName: org.h2.Driver
+        username: sa
+        password:
         jpa:
           hibernate:
             ddl-auto: create-drop
@@ -10,6 +13,9 @@ spring:
         version: dev
       kakao:
         url: jdbc:h2:mem:data/kakao
+        driverClassName: org.h2.Driver
+        username: sa
+        password:
         jpa:
           hibernate:
             ddl-auto: create-drop
@@ -17,6 +23,9 @@ spring:
         version: dev
       naver:
         url: jdbc:h2:mem:data/naver
+        driverClassName: org.h2.Driver
+        username: sa
+        password:
         jpa:
           hibernate:
             ddl-auto: create-drop

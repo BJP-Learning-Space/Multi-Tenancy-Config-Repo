@@ -2,26 +2,24 @@ spring:
   datasource:
     tenants:
       default:
-        spring:
-          datasource:
-            url: jdbc:h2:mem:data/demo
-            jpa:
-              hibernate:
-                ddl-auto: create-drop
+        url: jdbc:h2:mem:data/demo
+        jpa:
+          hibernate:
+            ddl-auto: create-drop
         project: multi
         version: dev
       kakao:
-            url: jdbc:h2:mem:data/kakao
-            jpa:
-              hibernate:
-                ddl-auto: create-drop
+        url: jdbc:h2:mem:data/kakao
+        jpa:
+          hibernate:
+            ddl-auto: create-drop
         project: multi
         version: dev
       naver:
-            url: jdbc:h2:mem:data/naver
-            jpa:
-              hibernate:
-                ddl-auto: create-drop
+        url: jdbc:h2:mem:data/naver
+        jpa:
+          hibernate:
+            ddl-auto: create-drop
         project: multi
         version: dev
 
